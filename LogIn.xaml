@@ -20,7 +20,7 @@
 		<PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" ToolTip="Unesite vašu korisničku šifru" Height="30" Margin="177,85,0,0"  VerticalAlignment="Top" Width="169" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="16" BorderBrush="#FF3E64FF"/>
 		<Label Content="Korisničko ime:" HorizontalAlignment="Left" Margin="27,23,0,0" VerticalAlignment="Top" Height="30" Width="135" FontSize="16" FontFamily="Segoe UI Black"/>
 		<Label Content="Šifra:" HorizontalAlignment="Left" Margin="99,85,0,0" VerticalAlignment="Top" FontSize="16" Height="30" RenderTransformOrigin="0.5,0.5" Width="52" Grid.RowSpan="2" FontFamily="Segoe UI Black"/>
-		<Button Content="Izlaz" BorderThickness="0" ToolTip="Zatvori program" HorizontalAlignment="Left" Margin="77.8,42.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="77" Height="41" FontSize="16" Grid.Column="1" Click="Exit_Click" Background="#f7e8f6" FontFamily="Snap ITC"/>
-		<Button Content="Prijava" BorderThickness="0" ToolTip="Prijava na sistem" HorizontalAlignment="Left" Margin="177,42.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="79" Height="41" FontSize="16" Grid.ColumnSpan="2" Click="LogIn_Click" Background="#FFC2E1FF" FontFamily="Snap ITC"/>
+		<Button Content="Izlaz" BorderThickness="0" ToolTip="Zatvori program" HorizontalAlignment="Left" Margin="77.8,42.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="77" Height="41" FontSize="16" Grid.Column="1" Click="Exit_Click" Background="#f7e8f6" FontFamily="Segoe UI Black"/>
+		<Button Content="Prijava" BorderThickness="0" ToolTip="Prijava na sistem" HorizontalAlignment="Left" Margin="177,42.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="79" Height="41" FontSize="16" Grid.ColumnSpan="2" Click="LogIn_Click" Background="#FFC2E1FF" FontFamily="Segoe UI Black"/>
 	</Grid>
 </Window>

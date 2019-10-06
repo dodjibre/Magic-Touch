@@ -28,7 +28,7 @@ namespace Projekat
 
         private void oSoftveru(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Autor: Srđan Bajić\nVerzija: 1.0.0", "O Softveru");
+            MessageBox.Show("Autor: Maksimović Filip\nVerzija: 1.0.0", "O Softveru");
         }
 
         private void uIzradiKlik(object sender, RoutedEventArgs e)
@@ -73,7 +73,7 @@ namespace Projekat
         }
         private void PomocKlik(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://github.com/Bajovac/IS-Fitnes/wiki/Help");
+            Process.Start("https://github.com/dodjibre/Magic-Touch/wiki/Help");
 
         }
         /*
